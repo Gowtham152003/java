@@ -23,7 +23,7 @@ System.out.print("Enter the 4th Denomination: ");
 int d= sc.nextInt();
 System.out.print("Enter the 4th Denomination number of notes: ");
 int d1= sc.nextInt();
-if(a1==100||b1==500||c1==200||d1==2000)
+if(a==100||a==200||a==500||a==2000&&b==100||b==200||b==500||b==2000&&c==100||c==200||c==500||c==2000&&d==100||d==200||d==500||d==2000)
 {
     int e=a*a1+b*b1+c*c1+d*d1;
     System.out.println("Total Available Balance in ATM = " +e);
